@@ -6,7 +6,6 @@ set ai
 set se
 set nu
 
-set wrap
 set wildmenu
 set autoread
 set ignorecase
