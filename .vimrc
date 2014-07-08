@@ -23,3 +23,7 @@ syntax enable
 colorscheme desert
 set background=dark
 set encoding=utf8
+
+if has("autocmd")
+  filetype indent on
+endif
