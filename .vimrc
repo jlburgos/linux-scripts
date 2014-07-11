@@ -5,6 +5,7 @@ set so=7
 set ai
 set nu
 
+set nowrap
 set wildmenu
 set autoread
 set ignorecase
