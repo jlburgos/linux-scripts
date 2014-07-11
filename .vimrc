@@ -3,7 +3,6 @@
 
 set so=7
 set ai
-set se
 set nu
 
 set wildmenu
