@@ -1,4 +1,4 @@
 linux-scripts
 =============
 
-Random Linux scripts and cfg files.
+Random Linux scripts, config files, and other dot files.
