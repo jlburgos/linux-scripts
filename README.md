@@ -8,4 +8,4 @@ Random Linux scripts, config files, and other dot files.
 
 * blah blah [linker][1] asdf asdf
 
-[1]: http://www.google.com
+[1]: <a href="http://www.google.com" target="_blank">www.google.com</a>
