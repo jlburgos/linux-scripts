@@ -1,9 +1,12 @@
 "" Author: Juan Burgos
 "" Purpose: Make VIM Better
 
-set so=7
-set ai
-set nu
+set scrolloff=7
+set autoindent
+set smartindent
+
+"" set relativenumber "" play with this for a while
+set number
 
 set nowrap
 set wildmenu
