@@ -5,7 +5,7 @@ set scrolloff=7
 set autoindent
 set smartindent
 
-"" set relativenumber "" play with this for a while
+" set relativenumber "" play with this for a while
 set number
 
 set nowrap
@@ -20,6 +20,7 @@ set showmatch
 set expandtab
 set shiftwidth=2
 set tabstop=2
+set backspace=indent,eol,start
 
 syntax enable
 colorscheme desert
