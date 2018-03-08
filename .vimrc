@@ -8,7 +8,7 @@ set smartindent
 " set relativenumber "" play with this for a while
 set number
 
-set nowrap
+set wrap
 set wildmenu
 set autoread
 set ignorecase
