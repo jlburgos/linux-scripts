@@ -9,6 +9,8 @@ set number
 set wrap
 set backspace=indent,eol,start
 set magic
+
+"" Visual config
 syntax enable
 colorscheme desert
 set background=dark
