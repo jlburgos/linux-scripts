@@ -5,6 +5,9 @@ set scrolloff=7
 set autoindent
 set smartindent
 
+"" Enable mouse input
+set mouse=a
+
 " set relativenumber "" play with this for a while
 set number
 
