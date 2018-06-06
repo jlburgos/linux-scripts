@@ -5,7 +5,6 @@ set scrolloff=7
 set autoindent
 set smartindent
 
-" set relativenumber "" play with this for a while
 set number
 
 set wrap
