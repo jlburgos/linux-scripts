@@ -9,6 +9,7 @@ set number
 set wrap
 set backspace=indent,eol,start
 set magic
+set statusline+=%F
 
 "" Visual config
 syntax enable
@@ -25,7 +26,7 @@ set shiftwidth=2
 set tabstop=2
 
 "" Enable mouse input
-set mouse=a
+"set mouse=a
 
 "" Search config
 set ignorecase
