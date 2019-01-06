@@ -25,6 +25,9 @@ set expandtab
 set shiftwidth=2
 set tabstop=2
 
+"" Make sure makefile editing uses tabs and not spaces
+autocmd FileType make setlocal noexpandtab
+
 "" Enable mouse input
 "set mouse=a
 
