@@ -1,35 +1,11 @@
 "" Author: Juan Burgos
 "" Purpose: Make VIM Better
 
-"" Editor config
-set scrolloff=7
-set autoindent
-set smartindent
-set number
-set wrap
-set backspace=indent,eol,start
-set magic
-set statusline+=%F
+"" Infect with Pathogen
+execute pathogen#infect()
 
-"" Visual config
-syntax enable
-colorscheme desert
-set background=dark
+"" File
 set encoding=utf8
-if has("autocmd")
-  filetype indent on
-endif
-
-"" Tab config
-set expandtab
-set shiftwidth=2
-set tabstop=2
-
-"" Make sure makefile editing uses tabs and not spaces
-autocmd FileType make setlocal noexpandtab
-
-"" Enable mouse input
-"set mouse=a
 
 "" Search config
 set ignorecase
@@ -41,3 +17,32 @@ set showmatch
 "" Menu config
 set wildmenu
 set autoread
+
+"" Indent / Tab
+set autoindent
+set smartindent
+set expandtab
+set shiftwidth=2
+set tabstop=2
+
+"" Scroll
+set scrolloff=7
+
+"" Line
+set number
+set wrap
+set magic
+set statusline+=%F
+set background=dark
+set backspace=indent,eol,start
+filetype plugin indent on
+
+"" Enable mouse input
+"set mouse=a
+
+"" Visual config
+syntax on
+colorscheme industry
+
+"" Make sure makefile editing uses tabs and not spaces
+autocmd FileType make setlocal noexpandtab
