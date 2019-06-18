@@ -2,7 +2,7 @@
 "" Purpose: Make VIM Better
 
 "" Infect with Pathogen
-execute pathogen#infect()
+"execute pathogen#infect() "not all systems use pathogen
 
 "" File
 set encoding=utf8
@@ -38,7 +38,7 @@ set backspace=indent,eol,start
 filetype plugin indent on
 
 "" Enable mouse input
-"set mouse=a
+"set mouse=a "causes more problems then it fixes
 
 "" Visual config
 syntax on
