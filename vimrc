@@ -2,7 +2,7 @@
 "" Purpose: Make VIM Better
 
 "" Infect with Pathogen
-execute pathogen#infect()
+"execute pathogen#infect()
 
 "" File
 set encoding=utf8
