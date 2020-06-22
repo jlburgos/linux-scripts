@@ -1,3 +1,3 @@
 #!/bin/bash
-ln -s $(pwd)/vimrc $HOME/.vimrc
-ln -s $(pwd)/screenrc $HOME/.screenrc
+ln -s ${PWD}/vimrc ${HOME}/.vimrc
+ln -s ${PWD}/screenrc ${HOME}/.screenrc
