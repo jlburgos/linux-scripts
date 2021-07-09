@@ -2,7 +2,7 @@
 "" Purpose: Make VIM Better
 
 "" Infect with Pathogen
-"execute pathogen#infect() "not all systems use pathogen
+""execute pathogen#infect() ""not all systems use pathogen
 
 "" File
 set encoding=utf8
@@ -13,6 +13,12 @@ set smartcase
 set hlsearch
 set incsearch
 set showmatch
+
+"" No annoying dot files created by vim
+set nobackup
+set nowritebackup
+set noswapfile "" Prevents those (dot)swp files
+set noundofile "" Prevents those (dot)un~ files
 
 "" Menu config
 set wildmenu
