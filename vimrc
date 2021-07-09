@@ -44,7 +44,7 @@ set backspace=indent,eol,start
 filetype plugin indent on
 
 "" Enable mouse input
-"set mouse=a "causes more problems then it fixes
+""set mouse=a ""causes more problems then it fixes
 
 "" Visual config
 syntax on
